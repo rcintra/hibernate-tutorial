@@ -3,3 +3,7 @@ mvn exec:java -Dexec.mainClass="org.hsqldb.Server" -D exec.args="-database.0 fil
 
 Run Test
 mvn exec:java -Dexec.mainClass="org.hibernate.tutorials.EventManager" -Dexec.args="store"
+
+or 
+
+mvn test
