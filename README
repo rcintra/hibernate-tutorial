@@ -1,0 +1,5 @@
+Start hsqldb
+mvn exec:java -Dexec.mainClass="org.hsqldb.Server" -D exec.args="-database.0 file:target/data/tutorial"
+
+Run Test
+mvn exec:java -Dexec.mainClass="org.hibernate.tutorials.EventManager" -Dexec.args="store"
