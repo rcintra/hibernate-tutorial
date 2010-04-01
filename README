@@ -1,3 +1,10 @@
+The project build with line code
+mvn archetype:create -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=org.hibernate.tutorials -DartifactId=hibernate-tutorial
+
+cd hibernate-tutorial
+mvn compile
+mvn eclipse:eclipse
+
 Start hsqldb
 mvn exec:java -Dexec.mainClass="org.hsqldb.Server" -D exec.args="-database.0 file:target/data/tutorial"
 
